@@ -4,6 +4,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: 1% 3%;
+    justify-content: space-between;
 }
 .header__logo{
     color: red;
@@ -25,4 +26,24 @@
 }
 .header__nav__links__link:hover{
     color: rgb(180, 180, 180);
+}
+.white{
+    color: white;
+    transition: all ease-in-out .2s;
+}
+.header__list__container__icon{
+    width: 40px;
+    height: 40px;
+}
+.arrow{
+    background: none;
+}
+.arrow:hover{
+    transform: rotate(180deg);
+}
+.profil{
+    position: relative;
+}
+.nav{
+    display: flex;
 }
