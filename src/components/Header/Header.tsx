@@ -5,34 +5,34 @@ export default function Header(){
     return (
 			<header className="header">
 				<div className="nav">
-				<div className="header__logo">NETFLIX</div>
-				<ul className="header__nav">
-					<li className="header__nav__links">
-						<a className="header__nav__links__link" href="#">
-							Home
-						</a>
-					</li>
-					<li className="header__nav__links">
-						<a className="header__nav__links__link" href="#">
-							Series
-						</a>
-					</li>
-					<li className="header__nav__links">
-						<a className="header__nav__links__link" href="#">
-							Films
-						</a>
-					</li>
-					<li className="header__nav__links">
-						<a className="header__nav__links__link" href="#">
-							New&Popular
-						</a>
-					</li>
-					<li className="header__nav__links">
-						<a className="header__nav__links__link" href="#">
-							List
-						</a>
-					</li>
-				</ul>
+					<div className="header__logo">NETFLIX</div>
+					<ul className="header__nav">
+						<li className="header__nav__links">
+							<a className="header__nav__links__link" href="#">
+								Home
+							</a>
+						</li>
+						<li className="header__nav__links">
+							<a className="header__nav__links__link" href="#">
+								Series
+							</a>
+						</li>
+						<li className="header__nav__links">
+							<a className="header__nav__links__link" href="#">
+								Films
+							</a>
+						</li>
+						<li className="header__nav__links">
+							<a className="header__nav__links__link" href="#">
+								New&Popular
+							</a>
+						</li>
+						<li className="header__nav__links">
+							<a className="header__nav__links__link" href="#">
+								List
+							</a>
+						</li>
+					</ul>
 				</div>
 				<ul className="header__nav profil">
 					<li className="header__nav__links">
@@ -53,6 +53,28 @@ export default function Header(){
 							className="header__list__container__icon"
 						/>
 						<ChevronDown className="white arrow" />
+						<div className="header__setting">
+							<li className="header__nav__links">
+								<a className="header__nav__links__link" href="#">
+									Setting
+								</a>
+							</li>
+							<li className="header__nav__links">
+								<a className="header__nav__links__link" href="#">
+									Account
+								</a>
+							</li>
+							<li className="header__nav__links">
+								<a className="header__nav__links__link" href="#">
+									Help
+								</a>
+							</li>
+							<li className="header__nav__links">
+								<a className="header__nav__links__link" href="#">
+									Disconnection
+								</a>
+							</li>
+						</div>
 					</li>
 				</ul>
 			</header>

@@ -16,9 +16,6 @@
     gap: 20px;
     margin-left: 5%;
 }
-.header__nav__links{
-
-}
 
 .header__nav__links__link{
     color: white;
@@ -45,5 +42,12 @@
     position: relative;
 }
 .nav{
+    display: flex;
+}
+.header__setting {
+    display: none;
+}
+
+.arrow:hover .header__setting {
     display: flex;
 }
