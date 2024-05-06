@@ -1,0 +1,28 @@
+.header{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1% 3%;
+}
+.header__logo{
+    color: red;
+    font-size: calc(.8vw + 16px);
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 5%;
+}
+.header__nav__links{
+
+}
+
+.header__nav__links__link{
+    color: white;
+    transition: all ease-in-out .2s;
+}
+.header__nav__links__link:hover{
+    color: rgb(180, 180, 180);
+}
