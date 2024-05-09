@@ -1,0 +1,53 @@
+.header{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1% 3%;
+    justify-content: space-between;
+}
+.header__logo{
+    color: red;
+    font-size: calc(.8vw + 16px);
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 5%;
+}
+
+.header__nav__links__link{
+    color: white;
+    transition: all ease-in-out .2s;
+}
+.header__nav__links__link:hover{
+    color: rgb(180, 180, 180);
+}
+.white{
+    color: white;
+    transition: all ease-in-out .2s;
+}
+.header__list__container__icon{
+    width: 40px;
+    height: 40px;
+}
+.arrow{
+    background: none;
+}
+.arrow:hover{
+    transform: rotate(180deg);
+}
+.profil{
+    position: relative;
+}
+.nav{
+    display: flex;
+}
+.header__setting {
+    display: none;
+}
+
+.arrow:hover .header__setting {
+    display: flex;
+}

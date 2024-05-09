@@ -1,0 +1,20 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+.home__container{
+    position: relative;
+    top: 20%;
+    color: white;
+    padding:  0 4rem;
+}
+.home__container__content{
+    
+}
+.home__container__content__list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
